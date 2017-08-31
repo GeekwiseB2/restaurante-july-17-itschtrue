@@ -53,3 +53,9 @@
   display: flex;
   align-items: center;
 }
+
+/*Our Story styles */
+.year-text{
+  position: absolute;
+  z-index: -1;
+}
