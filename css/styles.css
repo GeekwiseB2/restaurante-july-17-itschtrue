@@ -51,13 +51,12 @@
     color: #F8512F;
     background-color: rgba(17, 17, 17, .2);
 }
-nav.navbar {
+/*nav.navbar {
   position: absolute;
-  top: 100;
   right: 0;
   left: 0;
   z-index: 20;
-}
+}*/
 .navbar-brand>img {
   margin-top: -7px;
 }
@@ -165,3 +164,26 @@ nav.navbar {
 }
 
 /*menu styles*/
+
+#menu{
+  background-image: url("../img/black_linen.png")
+}
+
+#menu h1{
+  font-size: 5em;
+}
+
+#menu .food_item{
+  background-color: #fff;
+  padding: 8px 6px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, #menu .nav-tabs>li>a{
+  color: #F8512F;
+  font-weight: 700;
+}
+
+#menu .nav-tabs>li>a:hover{
+  background-color: rgba( 255, 255, 255, 0.25);
+  border-color: transparent;
+}
